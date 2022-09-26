@@ -12,16 +12,16 @@ print(tumpukan)
  
 #memasukan data baru
 tumpukan.append(9)
-print("data masuk", 9)
-print('data sekarang', tumpukan)
+print("Daftar data yang masuk", 9)
+print('Daftar data sekarang', tumpukan)
  
 tumpukan.append(10)
-print("data masuk", 10)
-print('data sekarang', tumpukan)
+print("Daftar data yang masuk", 10)
+print('Daftar data sekarang', tumpukan)
  
 dataKeluar = tumpukan.pop() # mengeluarkan data yang paling terakhir yaitu 10
-print('data yang keluar adalah :',dataKeluar)
-print("data terakhir adalah :", tumpukan)
+print('Daftar data yang keluar adalah :',dataKeluar)
+print("Daftar data terakhir adalah :", tumpukan)
  
 # hasil :
 # [1, 2, 3, 4, 5, 6, 7, 8]
